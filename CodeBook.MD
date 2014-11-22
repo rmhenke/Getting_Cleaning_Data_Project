@@ -32,17 +32,18 @@ The remaining columns contain processed sensor data collected from the smartphon
 
 **Examples**
 
-|Column Name             | Definition                                                                                                            |                           
-|----------------------------|:-----------------------------------------------------------------------------------------------------:|
-| tBodyAccAvgMeanX   |    – mean of the mean dynamic component reading of acceleration along the X axis |
-| tBodyAccAvgMeanY   |    – mean of the mean dynamic component reading of acceleration along the Y axi   |
-| tBodyAccAvgMeanZ   |    – mean of the mean dynamic component reading of acceleration along the Z axis  |
-| tBodyAccAvgStdX      |    – mean of the mean dynamic component reading of acceleration along the X axis  | 
-| tBodyAccAvgStdY      |    – mean of the mean dynamic component reading of acceleration along the Y axis  |
-| tBodyAccAvgStdZ      |     – mean of the mean dynamic component reading of acceleration along the Z axis  |
+|Column Name                 | Definition                                                                                                                            |                           
+|-------------------------------|:------------------------------------------------------------------------------------------------------------------:|
+| tBodyAccAvgMeanX       |    – mean of the mean dynamic component reading of acceleration along the X axis                |
+| tBodyAccAvgMeanY       |    – mean of the mean dynamic component reading of acceleration along the Y axi                  |
+| tBodyAccAvgMeanZ       |    – mean of the mean dynamic component reading of acceleration along the Z axis                 |
+| tBodyAccAvgStdX          |    – mean of the mean dynamic component reading of acceleration along the X axis                | 
+| tBodyAccAvgStdY          |    – mean of the mean dynamic component reading of acceleration along the Y axis                |
+| tBodyAccAvgStdZ          |     – mean of the mean dynamic component reading of acceleration along the Z axis                |
 
-tBodyAccMagAvgMean 			– mean of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ 
-tBodyAccMagAvgStd 		 	– mean of std of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ
+|-------------------------------|:------------------------------------------------------------------------------------------------------------------:|
+| tBodyAccMagAvgMean   |    – mean of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ          |
+| tBodyAccMagAvgStd      |    – mean of std of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ |
               
 tBodyAccJerkAvgMeanX		– mean of the mean Jerk value along the X axis.
 tBodyAccJerkAvgMeanY		– mean of the mean Jerk value along the Y axis.

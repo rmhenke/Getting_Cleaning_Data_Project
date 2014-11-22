@@ -41,8 +41,8 @@ The remaining columns contain processed sensor data collected from the smartphon
 |tBodyAccAvgStdY             |– mean of the mean dynamic component reading of acceleration along the Y axis                              |
 |tBodyAccAvgStdZ              |– mean of the mean dynamic component reading of acceleration along the Z axis                              |
 |                                        |                                                                                                                                                    |
-|tBodyAccMagAvgMean      |– mean of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ                        |
-|tBodyAccMagAvgStd         |– mean of std of the vector sum of tBodyAccMeanX, tBodyAccMeanY, tBodyAccMeanZ                     |
+|tBodyAccMagAvgMean      |– mean of the vector sum of tBodyAccMeanX, tBodyAccMeanY, tBodyAccMeanZ                              |
+|tBodyAccMagAvgStd         |– mean of std of the vector sum of tBodyAccMeanX, tBodyAccMeanY,  & tBodyAccMeanZ                  |
 |                                        |                                                                                                                                                    |
 |tBodyAccJerkAvgMeanX    |– mean of the mean Jerk value along the X axis                                                                               |
 |tBodyAccJerkAvgMeanY    |– mean of the mean Jerk value along the Y axis                                                                               |
@@ -52,8 +52,8 @@ The remaining columns contain processed sensor data collected from the smartphon
 |tBodyAccJerkAvgStdY       |– mean of the stand deviation of the Jerk value along the Y axis                                                         |
 |tBodyAccJerkAvgStdZ       |– mean of the stand deviation of the Jerk value along the Z axis                                                          |
 |                                        |                                                                                                                                                     |
-|tBodyAccJerkMagAvgMean|– mean of the vector sum of tBodyAccJerkMeanX, tBodyAccJerkMeanY, tBodyAccJerkMeanZ            |
-|tBodyAccJerkMagAvgStd   |– mean of std of the vector sum of tBodyAccJerkMeanX, tBodyAccJerkMeanY, BodyAccJerkMeanZ    |
+|tBodyAccJerkMagAvgMean|– mean of the vector sum of tBodyAccJerkMeanX, tBodyAccJerkMeanY,   & tBodyAccJerkMeanZ            |
+|tBodyAccJerkMagAvgStd   |– mean of std of the vector sum of tBodyAccJerkMeanX, tBodyAccJerkMeanY,  &  BodyAccJerkMeanZ    |
 
 
 “GravityAcc”  and “BodyGyro” sensors data columns follow the same naming convention.

@@ -10,6 +10,7 @@ This Repo contains files required for the completion of Project 1 of the Courser
 
 **CodeBook.md**: Describes the variables, data, and all transformation used in the processing of the asigned data to a tidy data standard.
 
+**tidy_dataset.txt**:  Data produced by  **run_analysis.R**
 
 ##Project  Summary
 

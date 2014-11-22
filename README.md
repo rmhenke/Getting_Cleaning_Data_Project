@@ -2,8 +2,7 @@
 
 **Contents**
 
-This Repo contains files, listed below, that are required for
-the completion of Project 1 of the Coursera course “Getting and Cleaning Data”.
+This Repo contains files required for the completion of Project 1 of the Coursera course “Getting and Cleaning Data”.
 
 **README.md**: This file
 
@@ -13,9 +12,7 @@ dataset conforming to the tidy data standard
 **CodeBook.md**: Includes information about the raw and tidy datasets along
 with a description of how the processes the raw dataset.
 
-**LICENSE**: License terms for text and code
-
-**tidy_data.txt: **The dataset produced by **run_analysis.R.**
+**tidy_data.txt:** The dataset produced by run_analysis.R.
 
 **Project  Summary**
 

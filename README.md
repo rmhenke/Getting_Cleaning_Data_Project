@@ -1,6 +1,6 @@
-##Getting and Cleaning Data Project
+#Getting and Cleaning Data Project
 
-###Contents
+##Contents
 
 This Repo contains files required for the completion of Project 1 of the Coursera course “Getting and Cleaning Data”.
 
@@ -26,7 +26,7 @@ Unzipped and place a copy of project data folder (“getdata_projectfiles_UCI
 HAR Dataset”) in the R working directory along with the **run_analysis.R** script.  Run the script from the R command line. 
 
 
-##Script Performance*
+##Script Performance
 
 **run_analysis.R** performs the following actions;
 

@@ -19,16 +19,19 @@ The remaining columns contain processed sensor data collected from the smartphon
 
 **Naming Code**
 
-“t” or “f”                 	= time or frequency domain 
-“BodyAcc”			= Reading/Sensor
-“Mag”           		= magnitude of the vector sum from all 3 axes (X,Y,Z )
-“Jerk”           		= the derivative of acceleration (BodyAcc reading) with respect to time
-“MeanFreq”              = weighted average of the frequency components    
-“Mean”				= mean
-“Std”            		= standard deviation
-“X”, “Y”, “Z”  		= axis of measurement
-“Avg”                        =as prefix indicates mean of mean (“AvgMean”) or mean of Std (“AvgStd”) calculated in summary step 
-                                  described above.
+|Term             |Definition |
+|----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| “t” or “f”       | = time or frequency domain |
+| “BodyAcc”   | = reading/sensor |
+| “Mag”          | = magnitude of the vector sum from all 3 axes (X,Y,Z ) |
+| “Jerk”          | = the derivative of acceleration (BodyAcc reading) with respect to time |
+| “MeanFreq”  | = weighted average of the frequency components  |  
+| “Mean”        |= mean |
+| “Std”           |= standard deviation |
+| “X”, “Y”, “Z” |= axis of measurement |
+| “Avg”           | =as prefix indicates mean of mean (“AvgMean”) or mean of Std (“AvgStd”) calculated in summary step described above |
+
+                                  
 
 **Examples**
 

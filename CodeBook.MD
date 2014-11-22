@@ -16,6 +16,7 @@ The **run_analysis.R** script processes the original Anguita et al. data folder 
 “subject”- A unique participate ID# (1-30)
 “activity”- A label describing activity performed (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 The remaining columns contain processed sensor data collected from the smartphone’s accelerometer and gyroscope. The accelerometer provides both static (Gravity) and dynamic (Body) acceleration information recorded in **standard gravity units 'g'**. This is complimented by the gyroscopes ability to detect pitch, roll and yaw from its measurement of angular velocity (**recorded as radians/second**). These 3 parameters are coded in the dataset by the abbreviations “GravityAcc”, “BodyAcc”, and “BodyGyro” respectively. Below is listed a code breakdown of the column names along with examples related to the accelerometer data.
+
 **Naming Code**
 
 “t” or “f”                 	= time or frequency domain 
@@ -31,13 +32,13 @@ The remaining columns contain processed sensor data collected from the smartphon
 
 **Examples**
 
-tBodyAccAvgMeanX      – mean of the mean dynamic component reading of acceleration along the X axis
-tBodyAccAvgMeanY      – mean of the mean dynamic component reading of acceleration along the Y axis
-tBodyAccAvgMeanZ      – mean of the mean dynamic component reading of acceleration along the Z axis
-             
-tBodyAccAvgStdX          – mean of the mean dynamic component reading of acceleration along the X axis
-tBodyAccAvgStdY          – mean of the mean dynamic component reading of acceleration along the Y axis
-tBodyAccAvgStdZ          – mean of the mean dynamic component reading of acceleration along the Z axis
+| tBodyAccAvgMeanX   |    – mean of the mean dynamic component reading of acceleration along the X axis |
+|----------------------------|:-----------------------------------------------------------------------------------------------------:|
+| tBodyAccAvgMeanY   |    – mean of the mean dynamic component reading of acceleration along the Y axi   |
+| tBodyAccAvgMeanZ   |    – mean of the mean dynamic component reading of acceleration along the Z axis  |
+| tBodyAccAvgStdX      |    – mean of the mean dynamic component reading of acceleration along the X axis  | 
+| tBodyAccAvgStdY      |    – mean of the mean dynamic component reading of acceleration along the Y axis  |
+| tBodyAccAvgStdZ      |     – mean of the mean dynamic component reading of acceleration along the Z axis  |
 
 tBodyAccMagAvgMean 			– mean of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ 
 tBodyAccMagAvgStd 		 	– mean of std of the vector sum of tBodyAccMeanX, tBodyAccMeanY, and tBodyAccMeanZ

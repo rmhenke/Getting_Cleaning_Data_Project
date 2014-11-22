@@ -33,7 +33,7 @@ The remaining columns contain processed sensor data collected from the smartphon
 **Examples**
 
 |Column Name                  | Definition                                                                                                                                      |                           
-|--------------------------------|:--------------------------------------------------------------------------------------------------------------------------:|
+|--------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 |tBodyAccAvgMeanX         |– mean of the mean dynamic component reading of acceleration along the X axis                              |
 |tBodyAccAvgMeanY         |– mean of the mean dynamic component reading of acceleration along the Y axi                                |
 |tBodyAccAvgMeanZ          |– mean of the mean dynamic component reading of acceleration along the Z axis                               |

@@ -10,13 +10,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The **run_analysis.R** script processes the original Anguita et al. data folder by;
 
 1. Merging the test and training datasets (files:X_train.txt and X_test.txt)
-2.  Extracting only statistically processed sensor data (mean and std containing columns)
+2. Extracting only statistically processed sensor data (mean and std containing columns)
 3. Converting the numeric “activity” code to descriptive activity names as defined in activity_labels.txt
 4. Adding descriptive variable names, removing unnecessary symbols, and redundant terms.
-5. Summarizes the data by finding an average of each variable for each activity and subject.  
+5. Summarizes the data by finding an average of each variable for each activity and subject. The resulting data is formatted as long tidy data and saved to “tidy_data_txt.
 
-The resulting data is formatted as long tidy data and saved to “tidy_data_txt. The file has 80 variables and 180 rows. Each column has a label and the coding nomenclature is shown below;
+The file has 80 variables and 180 rows. Each column has a label and the coding nomenclature is shown below;
+
 “subject”- A unique participate ID# (1-30)
+
 “activity”- A label describing activity performed (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 The remaining columns contain processed sensor data collected from the smartphone’s accelerometer and gyroscope. The accelerometer provides both static (Gravity) and dynamic (Body) acceleration information recorded in **standard gravity units 'g'**. This is complimented by the gyroscopes ability to detect pitch, roll and yaw from its measurement of angular velocity (**recorded as radians/second**). These 3 parameters are coded in the dataset by the abbreviations “GravityAcc”, “BodyAcc”, and “BodyGyro” respectively. Below is listed a code breakdown of the column names along with examples related to the accelerometer data.
 
